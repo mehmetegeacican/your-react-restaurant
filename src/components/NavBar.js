@@ -3,7 +3,7 @@ import {Link,NavLink} from 'react-router-dom'
 
 function NavBar() {
     return (
-        <nav className = "nav-wrapper red darken-3">
+        <nav className = "nav-wrapper red accent-4">
             <div className = "container">
                 <a  className ="left brand-logo">Delicioso'</a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
