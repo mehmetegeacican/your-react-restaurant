@@ -32,3 +32,12 @@
     min-height: 400px;
   }
 }
+
+input:focus {
+  border-bottom: 1px solid darkred !important;
+  box-shadow: 0 1px 0 0 darkred !important;
+}
+input:checked{
+  background-color: #ff9800;
+ }
+
