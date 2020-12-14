@@ -3,6 +3,7 @@ import {Component} from 'react'
 import '../styles/HomePage.css'
 import logo1 from '../pictures/res.jpg'
 import logo2 from '../pictures/delicioso2.jpg'
+import {Link,NavLink} from 'react-router-dom'
 
 
 
@@ -17,8 +18,8 @@ class HomePage extends Component{
             </div>
             <div className = "container center">
               <a> <h3 className ="white-text"> Delicioso</h3> </a>
-              <a> <h4 className ="white-text"> The best italian food since 1998</h4> </a>
-              <a ><button className = "btn waves-effect waves-light red darken-4 ">View Menu</button></a>
+              <a> <h4 className ="white-text"> The best italian food since 1956</h4> </a>
+              <NavLink to = "/menu" ><button className = "btn waves-effect waves-light red darken-4 ">View Menu</button></NavLink>
             </div>
           </div>
           
